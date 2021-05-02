@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.9"
+install:
+  - pipenv install
+script:
+  - python manage.py test

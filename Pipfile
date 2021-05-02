@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1.6"
+djangorestframework = "*"
+pillow = "*"
+django-extra-fields = "*"
+psycopg2-binary = "*"
+mysqlclient = "*"
+sshtunnel = "*"
+pylint = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
